@@ -2,8 +2,8 @@
 
     
 ## Introdution
-The project is interpretation of classical NES game [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid)
-Built using Typescript to render graphics on canvas element.
+The project is interpretation of classical NES game [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid) .
+Built using TypeScript to render graphics on canvas element.
 
 [You can play online game here](https://en.wikipedia.org/wiki/Arkanoid)
 
