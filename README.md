@@ -21,5 +21,5 @@ ___
 - Different power-ups:
     - __Lengthen__ : lengthens width of bat
     - __Shrink__ : shrinks width of bat
-    - __Faster_ : increses ball speed
+    - __Faster__ : increases ball speed
 ___
