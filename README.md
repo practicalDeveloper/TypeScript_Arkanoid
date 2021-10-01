@@ -24,5 +24,5 @@ ___
     - __Faster__ : increases ball speed
     - __Slower__ : decreases ball speed
 - Increasing level after destroying all bricks
-- Increasing score of hit bricks
+- Increasing score for hit bricks
 ___
