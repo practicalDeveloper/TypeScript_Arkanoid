@@ -18,4 +18,6 @@ ___
     - __Green__ : three hits to destroy
     - __Green__ : four hits to destroy
     - __Blue__ : five hits to destroy
+- Different power-ups:
+    - __Light blue__ : one hit to destroy
 ___
