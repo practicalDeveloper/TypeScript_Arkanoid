@@ -19,5 +19,7 @@ ___
     - __Green__ : four hits to destroy
     - __Blue__ : five hits to destroy
 - Different power-ups:
-    - __Light blue__ : one hit to destroy
+    - __Lengthen__ : lengthens width of bat
+    - __Shrink__ : shrinks width of bat
+    - __Faster_ : increses ball speed
 ___
