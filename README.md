@@ -22,4 +22,5 @@ ___
     - __Lengthen__ : lengthens width of bat
     - __Shrink__ : shrinks width of bat
     - __Faster__ : increases ball speed
+    - __Slower__ : decreases ball speed
 ___
