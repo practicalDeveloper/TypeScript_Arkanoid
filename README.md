@@ -16,5 +16,5 @@ ___
     - __Light blue (bold)__ : one hit to destroy
     - __Yellow (bold)__ : two hits to destroy
     - __Green (bold)__ : three hits to destroy
-    - __Green (Red)__ : four hits to destroy
+    - __Green __ : four hits to destroy
 ___
