@@ -13,8 +13,8 @@ ___
 ## Game features
 
 - Bricks with different strength:
-    - __Light blue (bold)__ : one hit to destroy
-    - __Yellow (bold)__ : two hits to destroy
-    - __Green (bold)__ : three hits to destroy
+    - __Light blue__ : one hit to destroy
+    - __Yellow__ : two hits to destroy
+    - __Green__ : three hits to destroy
     - __Green__ : four hits to destroy
 ___
