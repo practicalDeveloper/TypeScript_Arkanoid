@@ -13,5 +13,5 @@ ___
 ## Game features
 
 - Bricks with different strength
-    - __Light blue
+    - __Жирный текст (bold)__
 ___
