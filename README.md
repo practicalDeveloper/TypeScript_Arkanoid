@@ -72,16 +72,5 @@ class App {
 export default class Game {
   ...
  }
- 
- (function () {
-
-  function init() {
-    CanvasLayout.stretchCanvas("divCanvas");
-    let app = new App(new Game());
-    app.initGame();
-  }
-
-  window.addEventListener('DOMContentLoaded', init, false);
-})();
  ```
 ___
