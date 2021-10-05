@@ -75,4 +75,16 @@ export default class Game {
   ...
  }
  ```
+ ## The classes of game elements
+ A bat element with properties like width, height and image of it.
+ 
+  ```TypeScript
+ export default class Bat {
+  public batImage: HTMLImageElement = new Image();
+  public position: Position;
+  public size: Size;
+  ...
+  }
+ ```
+
 ___
