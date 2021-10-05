@@ -26,11 +26,10 @@ ___
 - Increasing level after destroying all bricks
 - Increasing score for hit bricks
 - HTML:
-Left of side of the HTML page contains main area with HTML5 canvas to draw on it. 
+Left of side of the HTML page contains main area with HTML5 canvas to draw on it, which is placed inside cell of main table.
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+<canvas id="Canvas"></canvas>
+
 ```
 ___
