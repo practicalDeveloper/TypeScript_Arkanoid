@@ -110,4 +110,16 @@ export default class Brick {
   ...
 }
  ```
+ 
+  A power-up element with properties like width, height, position and image of it.
+  
+```TypeScript
+  export default class Asset {
+  public assetImage: HTMLImageElement = new Image();
+  public position: Position;
+  public size: Size;
+  public fallSpeed: number;
+  ...
+}
+```
 ___
