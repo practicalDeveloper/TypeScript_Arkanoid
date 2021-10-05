@@ -70,6 +70,8 @@ class App {
  
  ```TypeScript
 export default class Game {
+  public bat: Bat;
+  public ball: Ball;
   ...
  }
  ```
