@@ -48,4 +48,6 @@ Into the main HTML table is placed div for floating message with Help contents.
  
 ## Typescript code
 
+main.ts is the main class for the game. It contains the class game responsible for rendering, drawing of objects on the canvas.
+
 ___
