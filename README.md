@@ -97,7 +97,8 @@ export default class Ball {
   public moveSpeedY: number;
   ...
 }
-
+ ```
+ 
  A brick element with properties like width, height, strength, position and image of it.
  
  ```TypeScript
@@ -108,4 +109,5 @@ export default class Brick {
     public brickStrength: number;
   ...
 }
+ ```
 ___
