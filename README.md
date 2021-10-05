@@ -46,6 +46,26 @@ Into the main HTML table is placed div for floating message with Help contents.
   }
  ```
  
+Right of side of the HTML page contains area with information buttons to react with the game.
+  
+```HTML
+        <div class="right">
+            <div class="flex-container center borderedText">
+                <div class="flex-item color1">Level:<br><span id="levelLabel">1</span></div>
+                <div class="flex-item color2">Score:<br><span id="scoreLabel">0</span></div>
+                <div class="flex-item color3">Lives:<br><span id="livesLabel">5</span></div>
+                <div>
+                    <button class="button color6" id="btnStart">Start</button>
+                    <br><br>
+                    <button class="button color5" id="btnStop">Reset</button>
+                    <br><br>
+                    <button class="button color4" id="btnHelp">Help</button>
+                    <br>
+                </div>
+            </div>
+        </div>
+ ```
+ 
 ## Typescript code
 
 main.ts is the main file for the game. It contains the class App with link to the classs game, which is responsible for rendering, drawing of objects on the canvas.
