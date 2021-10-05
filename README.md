@@ -33,6 +33,16 @@ Left of side of the HTML page contains main area with HTML5 canvas to draw on it
 ```
 Into the main HTML table is placed div for floating message with Help contents.
 ```
-<canvas id="Canvas"></canvas>
+<div id="floatingMessage" class="contentHelp">
+</div>
 ```
+
+```
+.contentHelp {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 0.5em;
+  }
+ ```
 ___
