@@ -80,11 +80,21 @@ export default class Game {
  
   ```TypeScript
  export default class Bat {
-  public batImage: HTMLImageElement = new Image();
-  public position: Position;
-  public size: Size;
-  ...
+      public batImage: HTMLImageElement = new Image();
+      public position: Position;
+      public size: Size;
+      ...
   }
  ```
-
+ A ball element with properties like width, height, move speed and image of it.
+ 
+```TypeScript
+export default class Ball {
+  public ballImage: HTMLImageElement = new Image();
+  public position: Position;
+  public size: Size;
+  public moveSpeedX: number;
+  public moveSpeedY: number;
+  ...
+}
 ___
