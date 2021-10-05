@@ -25,4 +25,12 @@ ___
     - __Slower__ : decreases ball speed
 - Increasing level after destroying all bricks
 - Increasing score for hit bricks
+- HTML:
+Left of side of the HTML page contains main area with HTML5 canvas to draw on it. 
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 ___
