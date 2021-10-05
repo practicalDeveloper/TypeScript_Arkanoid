@@ -48,6 +48,40 @@ Into the main HTML table is placed div for floating message with Help contents.
  
 ## Typescript code
 
-main.ts is the main class for the game. It contains the class game responsible for rendering, drawing of objects on the canvas.
+main.ts is the main file for the game. It contains the class App with link to the classs game, which is responsible for rendering, drawing of objects on the canvas.
 
+```TypeScript
+class App {
+  private game: Game;
+  ...
+ }
+ 
+ (function () {
+
+  function init() {
+    CanvasLayout.stretchCanvas("divCanvas");
+    let app = new App(new Game());
+    app.initGame();
+  }
+
+  window.addEventListener('DOMContentLoaded', init, false);
+})();
+ ```
+ 
+ ```TypeScript
+export default class Game {
+  ...
+ }
+ 
+ (function () {
+
+  function init() {
+    CanvasLayout.stretchCanvas("divCanvas");
+    let app = new App(new Game());
+    app.initGame();
+  }
+
+  window.addEventListener('DOMContentLoaded', init, false);
+})();
+ ```
 ___
