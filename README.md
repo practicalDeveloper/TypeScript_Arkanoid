@@ -26,10 +26,13 @@ ___
 - Increasing level after destroying all bricks
 - Increasing score for hit bricks
 ## HTML
-Left of side of the HTML page contains main area with HTML5 canvas to draw on it, which is placed inside cell of main table.
+Left of side of the HTML page contains main area with HTML5 canvas to draw on it, which is placed inside cell of main HTML table.
 
 ```
 <canvas id="Canvas"></canvas>
-
+```
+Into the main HTML table is placed div for floating message with Help contents.
+```
+<canvas id="Canvas"></canvas>
 ```
 ___
