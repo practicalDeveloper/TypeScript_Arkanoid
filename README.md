@@ -121,5 +121,6 @@ export default class Brick {
       public fallSpeed: number;
   ...
 }
+
 ```
 ___
