@@ -45,4 +45,7 @@ Into the main HTML table is placed div for floating message with Help contents.
     padding: 0.5em;
   }
  ```
+ 
+## Typescript code
+
 ___
