@@ -75,8 +75,8 @@ export default class Game {
   ...
  }
  ```
- ## The classes of game elements
- A bat element with properties like width, height and image of it.
+ ## The classes for game elements
+ A bat element with properties like width, height, position and image of it.
  
   ```TypeScript
  export default class Bat {
@@ -95,6 +95,17 @@ export default class Ball {
   public size: Size;
   public moveSpeedX: number;
   public moveSpeedY: number;
+  ...
+}
+
+ A brick element with properties like width, height, strength, position and image of it.
+ 
+ ```TypeScript
+export default class Brick {
+    public brickImage: HTMLImageElement = new Image();
+    public position: Position;
+    private size: Size;
+    public brickStrength: number;
   ...
 }
 ___
