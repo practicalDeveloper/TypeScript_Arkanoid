@@ -37,7 +37,7 @@ Into the main HTML table is placed div for floating message with Help contents.
 </div>
 ```
 
-```
+```HTML
 .contentHelp {
     display: flex;
     align-items: center;
