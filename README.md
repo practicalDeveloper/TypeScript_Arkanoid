@@ -25,7 +25,7 @@ ___
     - __Slower__ : decreases ball speed
 - Increasing level after destroying all bricks
 - Increasing score for hit bricks
-- HTML:
+## HTML
 Left of side of the HTML page contains main area with HTML5 canvas to draw on it, which is placed inside cell of main table.
 
 ```
