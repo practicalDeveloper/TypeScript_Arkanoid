@@ -46,7 +46,7 @@ Into the main HTML table is placed div for floating message with Help contents.
   }
  ```
  
-Right of side of the HTML page contains area with information buttons to react with the game.
+Right of side of the HTML page contains area with information labels and buttons to react with the game.
   
 ```HTML
 <div class="right">
