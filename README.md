@@ -115,10 +115,10 @@ export default class Brick {
   
 ```TypeScript
   export default class Asset {
-  public assetImage: HTMLImageElement = new Image();
-  public position: Position;
-  public size: Size;
-  public fallSpeed: number;
+      public assetImage: HTMLImageElement = new Image();
+      public position: Position;
+      public size: Size;
+      public fallSpeed: number;
   ...
 }
 ```
