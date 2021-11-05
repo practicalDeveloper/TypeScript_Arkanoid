@@ -1,0 +1,244 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Arkanoid project</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <div class="centered">
+
+        <div class="topTitle">
+            <p>Arkanoid</p>
+        </div>
+
+        <div class="left">
+            <!-- Canvas table -->
+            <table style="table-layout:fixed" width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"
+                align="center">
+
+                <tr class="areaRow">
+
+                    <td class="radialBorder">
+                    </td>
+
+                    <td class="hGradBorder">
+                    </td>
+
+
+                    <td class="hGradBorder">
+                    </td>
+
+                    <td class="radialBorder">
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td class="vGradBorder">
+                    </td>
+
+                    <!-- Canvas -->
+                    <td colspan="2" style="height: 100%;">
+                        <div id="divCanvas">
+
+                            <canvas id="Canvas"></canvas>
+
+                            <!-- Help message -->
+                            <div id="floatingMessage" class="contentHelp">
+
+                                <!-- Help title -->
+                                <div class="floatingMessageTitle">
+                                    <div class="contentTitle">Help</div>
+                                </div>
+
+
+                                <!-- Help text -->  
+                                <div class="contentHelp">
+                                    <div class="borderedText">
+                                        Press the START button to start the game. Use arrow keys to move the bat. 
+                                    </div>
+                                </div>
+
+                                 <!-- Bricks -->   
+
+                                 <div class="contentHelp">
+                                    <div class="borderedText">
+                                        Bricks: 
+                                    </div>
+                                </div>
+
+                                <div class="contentHelp">
+                                    <img class="imgHelpBrick" src="images/brick_lblue.png"> 
+                                    <div class="borderedText contentHelpColumn">
+                                        1 hit to destroy
+                                    </div>
+                                    <div class="borderedText">
+                                        <img class="imgHelpBrick" src="images/brick_blue.png" > 
+                                    </div>
+                                    <div class="borderedText">
+                                        5 hits to destroy
+                                    </div>
+
+                                </div>
+
+                                <div class="contentHelp">
+                                    <img class="imgHelpBrick" src="images/brick_yellow.png" > 
+                                    <div class="borderedText contentHelpColumn">
+                                        2 hits to destroy
+                                    </div>
+ 
+                                    <div class="borderedText">
+                                        <img class="imgHelpBrick" src="images/brick_purple.png" > 
+                                    </div>
+                                    <div class="borderedText">
+                                        6 hits to destroy
+                                    </div>
+                                </div>
+
+                                <div class="contentHelp">
+                                    <img class="imgHelpBrick" src="images/brick_green.png" > 
+                                    <div class="borderedText contentHelpColumn">
+                                        3 hits to destroy
+                                    </div>
+
+                                    <div class="borderedText">
+                                        <img class="imgHelpBrick" src="images/brick_grey.png" > 
+                                    </div>
+                                    <div class="borderedText">
+                                        7 hits to destroy
+                                    </div>
+     
+                                </div>
+
+
+                                <div class="contentHelp">
+                                    <img class="imgHelpBrick" src="images/brick_red.png" > 
+                                    <div class="borderedText">
+                                        4 hits to destroy
+                                    </div>
+                                </div>
+
+                                 <!-- Power-ups-->                    
+                                <div class="contentHelp">
+                                    <div class="borderedText">
+                                        Power-ups: 
+                                    </div>
+                                </div>
+
+                                <div class="contentHelp">
+                                    <img class="imgHelpAsset" src="images/lengthen.png"> 
+                                    <div class="borderedText contentHelpColumn">
+                                        lengthens width of the bat
+                                    </div>
+                                    <div class="borderedText">
+                                        <img class="imgHelpAsset" src="images/faster.png" > 
+                                    </div>
+                                    <div class="borderedText">
+                                        increases the ball speed
+                                    </div>
+                                </div>
+
+
+                                
+                                <div class="contentHelp">
+                                    <img class="imgHelpAsset" src="images/shrink.png"> 
+                                    <div class="borderedText contentHelpColumn">
+                                        shrinks width of the bat
+                                    </div>
+                                    <div class="borderedText">
+                                        <img class="imgHelpAsset" src="images/slower.png" > 
+                                    </div>
+                                    <div class="borderedText">
+                                        decreases the ball speed
+                                    </div>
+                                </div>
+
+
+                                <!-- Close help button -->
+                                <div>
+                                    <div class="floatingMessageTitle">
+                                        <button class="button color3" id="btnCloseHelp">Close</button>
+                                    </div>
+                                </div>
+
+
+                                
+                            </div>
+
+                        </div>
+                        
+
+                    </td>
+
+                    <td class="vGradBorder">
+                    </td>
+
+                </tr>
+
+                <tr class="areaRow">
+
+                    <td class="radialBorder">
+                    </td>
+
+
+                    <td class="hGradBorder">
+                    </td>
+
+
+                    <td class="hGradBorder">
+                    </td>
+
+                    <td class="radialBorder">
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+
+
+        
+        <div class="right">
+            <div class="flex-container center borderedText">
+                <div class="flex-item color1">Level:<br><span id="levelLabel">1</span></div>
+                <div class="flex-item color2">Score:<br><span id="scoreLabel">0</span></div>
+                <div class="flex-item color3">Lives:<br><span id="livesLabel">5</span></div>
+                <div>
+                    <button class="button color6" id="btnStart">Start</button>
+                    <br><br>
+                    <button class="button color5" id="btnStop">Reset</button>
+                    <br><br>
+                    <button class="button color4" id="btnHelp">Help</button>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottomTitle">
+            <p id="pausedLabel"></p>
+        </div>
+
+    </div>
+
+    
+
+
+    <script type="module" src="out/code/helpers.js"></script>
+    <script type="module" src="out/code/game.js"></script>
+
+    <script type="module" src="out/code/main.js"></script>
+    <script type="module" src="out/elements/bat.js"></script>
+    <script type="module" src="out/elements/ball.js"></script>
+    <script type="module" src="out/elements/brick.js"></script>
+    
+
+
+</body>
+
+</html>
