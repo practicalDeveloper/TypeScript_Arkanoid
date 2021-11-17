@@ -5,7 +5,7 @@
 The project is interpretation of classical NES game [Arkanoid](https://en.wikipedia.org/wiki/Arkanoid).
 Built using TypeScript to render graphics on canvas element. 
 
-[You can play online game here](https://en.wikipedia.org/wiki/Arkanoid)
+[You can play online game here](https://yuryyuhno.github.io/TypeScript_Arkanoid)
 
 ![Image alt](https://github.com/YuryYuhno/TypeScript_Arkanoid/blob/main/ImagesDescription/Main.png)
 ___
