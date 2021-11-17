@@ -7,7 +7,7 @@ Built using TypeScript to render graphics on canvas element.
 
 [You can play online game here](https://en.wikipedia.org/wiki/Arkanoid)
 
-![Image alt](https://github.com/YuryYuhno/TypeScript_Arkanoid/blob/main/Images/Main.png)
+![Image alt](https://github.com/YuryYuhno/TypeScript_Arkanoid/blob/main/ImagesDescription/Main.png)
 ___
 
 ## Game features
